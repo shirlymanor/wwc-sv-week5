@@ -13,7 +13,7 @@ Flow of Steps:
 <li> <b> Create a Firebase account <a href="https://www.firebase.com/signup"> Here </a></b></li>
 <li>Enable anonymous authentication</li>
 <li> Inside LoginViewController.swift import Firebase </li>
-<div>class LoginViewController: UIViewController {
+<li>class LoginViewController: UIViewController {
  
   // MARK: Properties
   var ref: Firebase! // 1
@@ -22,6 +22,6 @@ Flow of Steps:
     super.viewDidLoad()
     ref = Firebase(url: "https://<my-firebase-app>.firebaseio.com") // 2
   }
-}</div>
-
+}</li>
+<img src="Chat.gif"></img>
 
